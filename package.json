@@ -1,19 +1,15 @@
 {
-  "name": "mg-shared-components",
+  "name": "@grayfox-studio/mg-shared-components",
   "version": "1.0.0",
-  "description": "",
-
   "main": "dist/mg-shared-components.ssr.js",
   "browser": "dist/mg-shared-components.esm.js",
   "module": "dist/mg-shared-components.esm.js",
   "unpkg": "dist/mg-shared-components.min.js",
-
   "files": [
     "dist/*",
     "src/**/*.vue"
   ],
   "sideEffects": false,
-
   "scripts": {
     "serve": "vue-cli-service serve dev/serve.js",
     "prebuild": "rimraf ./dist",
@@ -22,10 +18,6 @@
     "build:es": "cross-env NODE_ENV=production rollup --config build/rollup.config.js --format es",
     "build:unpkg": "cross-env NODE_ENV=production rollup --config build/rollup.config.js --format iife"
   },
-
-  "dependencies": {
-  },
-
   "devDependencies": {
     "@babel/core": "^7.14.6",
     "@babel/preset-env": "^7.14.7",
@@ -50,5 +42,16 @@
   },
   "engines": {
     "node": ">=12"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yusefrich/mg-shared-components.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/yusefrich/mg-shared-components/issues"
+  },
+  "homepage": "https://github.com/yusefrich/mg-shared-components#readme",
+  "description": ""
 }
