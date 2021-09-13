@@ -1,6 +1,6 @@
 {
   "name": "@grayfox-studio/mg-shared-components",
-  "version": "1.1.0",
+  "version": "1.2.0",
   "main": "dist/mg-shared-components.ssr.js",
   "browser": "dist/mg-shared-components.esm.js",
   "module": "dist/mg-shared-components.esm.js",
